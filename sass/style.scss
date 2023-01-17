@@ -1,5 +1,135 @@
-body{
-  section{
-    color: blue;
+// Global
+
+$first-font: 'Dancing Script', cursive;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+/* Navigation */
+
+nav {
+  div {
+    a {
+      padding: 1vw;
+      position: relative;
+      text-decoration: none;
+      text-align: center;
+    }
   }
 }
+
+nav {
+  div {
+    .navbar-brand {
+      color: gold;
+      font-family: $first-font;
+      font-size: 2vw;
+      font-weight: bold;
+      padding: 3vw ;
+      text-align: center;
+    }
+  }
+}
+
+nav {
+  div {
+    .navbar-section {
+      color: whitesmoke;
+      font-size: 1.5vw;
+      font-weight: 500;
+      text-align: center;
+      padding: 3vw 0vw ;
+    }
+  }
+}
+
+nav {
+  div {
+    .navbar-section:hover {
+      color: gold;
+    }
+  }
+}
+
+/* Banner image */
+
+nav {
+  div {
+    .image {
+      z-index: 0;
+      position: absolute;
+      object-fit: cover;
+      width: 100%;
+      max-height: 110%;
+    }
+  }
+}
+
+/* Text and button */
+
+nav{
+  div{
+    p, h1, button{
+      position: relative;
+      width: 100%;
+      align-items: center;
+      text-align: center;
+      color: whitesmoke;
+
+    }
+  }
+}
+
+nav{
+  div{
+    button{
+      border: none;
+      border-radius: 3%;
+      background: gold;
+      padding: 1.5vw 0;
+      margin: 0 auto;
+      font-size: 1.5vw;
+      font-weight: bold;
+    }
+  }
+}
+
+nav{
+  div{
+    button:hover{
+      cursor: pointer;
+    }
+  }
+}
+
+
+nav{
+  div{
+    p{
+      font-style: italic;
+      font-size: 3vw;
+      padding: 10vw 0vw 0vw 0vw;
+    }
+  }
+}
+
+nav{
+  div{
+    h1{
+      font-size: 5vw;
+      font-weight: bold;
+      padding: 0 0 3vw 0;
+      margin: 0 auto;
+    }
+  }
+}
+
