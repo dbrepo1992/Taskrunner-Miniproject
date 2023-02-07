@@ -124,11 +124,28 @@ section {
   }
 }
 
+section{
+  div{
+    h3{
+      font-size: 1.2vw;
+    }
+  }
+}
+
 section {
   div {
     p {
       font-style: italic;
-      font-size: 1.2vw;
+      font-size: 1vw;
+    }
+  }
+}
+
+section{
+  h3{
+    p{
+      color: gray;
+      opacity: 0.6;
     }
   }
 }
